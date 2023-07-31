@@ -19,6 +19,8 @@ const config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'ufosc', // Usually your GitHub org/user name.
   projectName: 'osc-docs', // Usually your repo name.
+  deploymentBranch: 'deployment',
+  trailingSlash: false,
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
