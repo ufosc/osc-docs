@@ -41,7 +41,7 @@ const config = {
         docs: {
           path: 'docs/club',
           routeBasePath: 'docs/club',
-          editUrl: 'https://github.com/ufosc/osc-docs'
+          editUrl: 'https://github.com/ufosc/osc-docs/blob/main'
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css')
@@ -57,7 +57,7 @@ const config = {
         id: 'website',
         path: 'docs/website',
         routeBasePath: 'docs/website',
-        editUrl: 'https://github.com/ufosc/osc-docs'
+        editUrl: 'https://github.com/ufosc/osc-docs/blob/main'
       }
     ],
     [
@@ -66,7 +66,7 @@ const config = {
         id: 'osc-docs',
         path: 'docs/osc-docs',
         routeBasePath: 'docs/osc-docs',
-        editUrl: 'https://github.com/ufosc/osc-docs'
+        editUrl: 'https://github.com/ufosc/osc-docs/blob/main'
       }
     ]
   ],
