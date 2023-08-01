@@ -1,5 +1,5 @@
 # OSC-Docs
-[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
+[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme) ![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/ufosc/osc-docs/node.js.yml) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com) ![GitHub](https://img.shields.io/github/license/ufosc/osc-docs) ![GitHub issues](https://img.shields.io/github/issues/ufosc/osc-docs)
 
 The OSC Docs website is a source of truth for projects and club activity at the University of Florida's Open Source Club. More specifically, it hosts user and developer documentation for the various projects started each semester. This project uses [Docusaurus](https://docusaurus.io/) to quickly and conveniently generate static sites from [Markdown](https://www.markdownguide.org/basic-syntax/) files.
 
@@ -48,6 +48,9 @@ Maintained by the UF Open Source Club, can be contacted via [Discord](https://di
 Current Maintainers:
 - Michail Zeipekki @zeim839
 - Daniel Wildsmith @danielwildsmith
+
+## Contributing
+All contributions are welcome and appreciated, so long as they adhere to the [license](#license). Contributors are urged to familiarize themselves with the [contribution guidelines](CONTRIBUTING.md).
 
 ## License
 [AGPL-3.0-or-later](LICENSE.md) <br/>
