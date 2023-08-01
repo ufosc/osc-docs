@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkosc_docs=self.webpackChunkosc_docs||[]).push([[841],{5172:s=>{s.exports=JSON.parse('{"name":"docusaurus-plugin-content-docs","id":"osc-docs"}')}}]);
