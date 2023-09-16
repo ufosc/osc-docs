@@ -75,7 +75,7 @@ We recommend adding the following prefixes to your commit messages. These aren't
 - `fix: ...`: For when you've fixed something.
 - `lint: ...`: For when you've fixed/changed code syntax.
 - `refactor: ...`: For when you've rewritten or reorganized something. Use this if you've moved files or created folders. This is different from `lint` because it doesn't necessarily describe syntactical changes, it describes organizational changes.
-- Does your specific change not apply to any of these? Use your own best judgement.
+- Does your specific change not apply to any of these? Use your own best judgment.
 ## Pull Requests
 1. Always discuss big changes with by speaking to your group, by contacting a maintainer or by opening a discussion issue (see [opening issues](#opening-issues)). This increases the likelihood that they'll be accepted.
 2. Always open pull requests on the `main` branch.
@@ -96,7 +96,7 @@ We recommend adding the following prefixes to your commit messages. These aren't
 4. (Optional) Add a screenshot.
 5. (Optional) Add the github `bug` or `error` label.
 ### Typos
-Dont open issues for typos, just fix them and create a PR.
+Don't open issues for typos, just fix them and create a PR.
 ### Fixing issues and implementing proposals
 Please ask (by replying to the conversation) before trying to fix an issue or implement a feature proposal. Don't waste your time: the issue might be outdated, someone else might already be assigned or we might be waiting for more information.
 ## Standard README
@@ -122,7 +122,7 @@ Refer to this guideline on what labels to use and look for when deciding on what
 - `wontfix`: Won't be worked on anymore.
 ## Maintainers
 1. Review all PRs before merging.
-2. When upgarding the release version:
+2. When upgrading the release version:
    - Create a `BUMP X.X.X` commit message (where `X.X.X` is the version). If anyone ever wants to revert to a particular version, they can just modify the git history head to point to this commit.
    - The `package.json` contains a version tag, make sure it gets updated.
    - Create a github release.

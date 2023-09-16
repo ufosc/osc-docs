@@ -6,7 +6,7 @@ sidebar_position: 3
 
 # Rendering Pages
 
-The OSC website uses EJS to dynamically render HTML pages. EJS stands for "embedded JavaScript templates," and allows developers to write HTML with JavaScript code that gets executed prior to the user's request. It is simillar to PHP in the sense that the server will process the file, replace each EJS JavaScript template with HTML, and ultimately return an HTML page.
+The OSC website uses EJS to dynamically render HTML pages. EJS stands for "embedded JavaScript templates," and allows developers to write HTML with JavaScript code that gets executed prior to the user's request. It is similar to PHP in the sense that the server will process the file, replace each EJS JavaScript template with HTML, and ultimately return an HTML page.
 
 For documentation on EJS, see [EJS](https://ejs.co/).
 
@@ -26,7 +26,7 @@ EJS files accept standard HTML, with the exception of certain tags which will ac
 <% } %>
 ```
 
-The template may then be renderred by the following JavaScript code:
+The template may then be rendered by the following JavaScript code:
 ```js
 const express = require('express')
 const app = express()

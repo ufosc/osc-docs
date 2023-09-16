@@ -21,7 +21,7 @@ In the source code, each route occupies a separate file in the [routes folder](h
 Express.js is a backend web framework for creating and serving RESTful APIs on NodeJS. It is documented extensively at [expressjs.com](https://expressjs.com/).
 :::
 
-Expressjs, otherwise known as Express, implements a simple NodeJS web server. It defines a relative routing path and a series of middleware to use with each function. Each middleware iis a JavaScript function that accepts an HTTP request (the `req` variable) and a respone object (the `res` variable). The `res` variable is an interface for sending responses back to users.
+Expressjs, otherwise known as Express, implements a simple NodeJS web server. It defines a relative routing path and a series of middleware to use with each function. Each middleware is a JavaScript function that accepts an HTTP request (the `req` variable) and a response object (the `res` variable). The `res` variable is an interface for sending responses back to users.
 
 Example:
 ```js

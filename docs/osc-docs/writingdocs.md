@@ -11,7 +11,7 @@ Docusaurus is a powerful tool for creating documentation websites with ease. It 
 
 :::caution Installing the Project
 
-It is highly recommended to have the OSC Docs repository installed on your system prior to modifying the codebase. Installation of OSC Docs is documented in the [Installation](/docs/osc-docs/installation) guide.
+It is highly recommended to have the OSC Docs repository installed on your system prior to modifying the code base. Installation of OSC Docs is documented in the [Installation](/docs/osc-docs/installation) guide.
 
 :::
 
@@ -128,4 +128,4 @@ Starting a docusaurus server will allow you to instantly preview your markdown c
 npm start
 ```
 
-For more information, see the [Usage](/docs/osc-docs/usage) section. You must have the project and its dependencies installed, if you dont, then refer to the [Installation](/docs/osc-docs/installation) guide.
+For more information, see the [Usage](/docs/osc-docs/usage) section. You must have the project and its dependencies installed, if you don't, then refer to the [Installation](/docs/osc-docs/installation) guide.

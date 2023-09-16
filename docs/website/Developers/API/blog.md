@@ -169,7 +169,7 @@ The server responds with the modified JSON blog object
 }
 ```
 
-If the `_id` and `date` keys are ommitted, then the above response example may also be used as a sample request body. Note that all schema keys are optional: only the key/values that the client wishes to modify need to be specified.
+If the `_id` and `date` keys are omitted, then the above response example may also be used as a sample request body. Note that all schema keys are optional: only the key/values that the client wishes to modify need to be specified.
 
 If the ':id' parameter is invalid, the following JSON object is returned:
 

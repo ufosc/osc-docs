@@ -12,7 +12,7 @@ Any contribution to the OSC Website source code must pass testing and linting wo
 
 ## Test Index
 
-Sourcecode and documentation indices for currently available unit tests.
+Source code and documentation indices for currently available unit tests.
 
  * Blog API Route Tests: [GitHub](https://github.com/ufosc/Club_Website_2/blob/main/test/blog.spec.js) or [Docs](/docs/website/Developers/API/blog).
  * Cache Tests: [GitHub](https://github.com/ufosc/Club_Website_2/blob/main/test/cache.spec.js) or [Docs](/docs/website/Developers/caching).

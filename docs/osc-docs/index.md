@@ -21,5 +21,5 @@ The source code is available on the Open Source Club's [GitHub page](https://git
 * [Usage](/docs/osc-docs/usage): Instructions on setting up a local development server and using the project.
 * [Markdown](/docs/osc-docs/markdown): Introduction to the Markdown language.
 * [Documentation](/docs/osc-docs/writingdocs): Creating documentation sites and managing their contents.
-* [Static Pages](/docs/osc-docs/static-pages): Guide to creating non-documentational static pages.
+* [Static Pages](/docs/osc-docs/static-pages): Guide to creating non-documentation static pages.
 * [Configuring Docusaurus](/docs/osc-docs/docusaurus): Guide to modifying the Docusaurus website template.

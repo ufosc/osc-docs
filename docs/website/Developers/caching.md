@@ -6,7 +6,7 @@ sidebar_position: 6
 
 # Caching
 
-Caching allows the website's server to imporove performance and preserve CPU by storing time-insensitive data in memory. Its most common use case is in serving the home and blog pages: instead of dynamically re-rendering the same page for each user request, it is rendered only once and then served from memory. Naturally, the cache updates its data after some predetermined time period, configurable by the [CACHE_INTERVAL](/docs/website/Developers/configuration#caching) environment variable.
+Caching allows the website's server to improve performance and preserve CPU by storing time-insensitive data in memory. Its most common use case is in serving the home and blog pages: instead of dynamically re-rendering the same page for each user request, it is rendered only once and then served from memory. Naturally, the cache updates its data after some predetermined time period, configurable by the [CACHE_INTERVAL](/docs/website/Developers/configuration#caching) environment variable.
 
 ## Cache Module
 

@@ -51,14 +51,14 @@ Regardless of whether you choose to edit or create, you should be redirected to 
 
 The form fields are described below:
 
-| Field | Description |
-|-----------|-------------|
-|  Title         |  The title of the blog post           |
-|  Author         |  The author of the blog post           |
-|  Subtitle         |  The subtitle of the blog post, which will appear directly <br/>below the title.           |
-|  Cover Image URL  |  The cover image is the article's thumbnail. If left <br/> blank, a default image will automatically be used. |
-|  Content  |  The content body of the blog post. Supports HTML. |
-|  Status  |  Selecting 'published' will publish the post immediately. <br/> Selecting 'draft' will save it for later.  |
+| Field           | Description                                                                                                  |
+|-----------------|--------------------------------------------------------------------------------------------------------------|
+| Title           | The title of the blog post                                                                                   |
+| Author          | The author of the blog post                                                                                  |
+| Subtitle        | The subtitle of the blog post, which will appear directly <br/>below the title.                              |
+| Cover Image URL | The cover image is the article's thumbnail. If left <br/> blank, a default image will automatically be used. |
+| Content         | The content body of the blog post. Supports HTML.                                                            |
+| Status          | Selecting 'published' will publish the post immediately. <br/> Selecting 'draft' will save it for later.     |
 
 :::tip Using Uploaded Images
 

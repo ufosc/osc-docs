@@ -9,7 +9,7 @@ Each semester, members meet and collaborate to build open source projects. Their
 
 <hr />
 
-## Documetation Index
+## Documentation Index
 
 * [Club Archive](/docs/club): Archive of club presentations, notes, etc.
 * [OSC Website](/docs/website): User & Developer Documentation for the [OSC website](https://ufosc.org).
@@ -17,7 +17,7 @@ Each semester, members meet and collaborate to build open source projects. Their
 
 ## Contributing
 
-All projects by the UF Open Source Club are governed by open-source licenses. In nearly all projecs, you are allowed and encouraged to make contributions - as long as they likewise adhere to the project's respective license. You can browse available projects on the [GitHub UF OSC page](https://github.com/ufosc).
+All projects by the UF Open Source Club are governed by open-source licenses. In nearly all projects, you are allowed and encouraged to make contributions - as long as they likewise adhere to the project's respective license. You can browse available projects on the [GitHub UF OSC page](https://github.com/ufosc).
 
 If you wish to contribute to OSC Docs, navigate to its [GitHub Repository](https://github.com/ufosc/osc-docs). Alternatively, clicking on the "Edit this page" button on your desired documentation page will redirect you to the source code for that particular page, where you'll be able to contribute.
 

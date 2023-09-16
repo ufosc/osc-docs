@@ -31,6 +31,6 @@ navbar: {
 
 :::tip
 
-The OSC Docs homepage is an example of a non-documentational static page. You may find its source code (in Markdown) in the project's `src/pages/index.md` path.
+The OSC Docs homepage is an example of a non-documentation static page. You may find its source code (in Markdown) in the project's `src/pages/index.md` path.
 
 :::

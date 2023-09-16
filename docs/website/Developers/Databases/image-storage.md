@@ -6,13 +6,13 @@ sidebar_position: 3
 
 # Image Storage
 
-The images API route exists to serve image content for blog articles. To minimise latency, images are stored on the server's hard disk, whilst image metadata lives on the database. The purpose of the metadata is to assert the image's existence, physical location, description, and API path.
+The images API route exists to serve image content for blog articles. To minimize latency, images are stored on the server's hard disk, whilst image metadata lives on the database. The purpose of the metadata is to assert the image's existence, physical location, description, and API path.
 
 If you'd like to learn more about the type of metadata that's stored, refer to [models/images.js](https://github.com/ufosc/Club_Website_2/blob/main/model/images.js).
 
 ## Express Multer
 
-The [Express Multer](https://expressjs.com/en/resources/middleware/multer.html) library enables the Express webserver to do multiplexing. Consequently, this means that it can receive multiform and multipart data (data that takes multiple requests to transmit, i.e large image files). The library is configured to save incoming image files to the disk (`/uploads`) folder:
+The [Express Multer](https://expressjs.com/en/resources/middleware/multer.html) library enables the Express web server to do multiplexing. Consequently, this means that it can receive multiform and multipart data (data that takes multiple requests to transmit, i.e large image files). The library is configured to save incoming image files to the disk (`/uploads`) folder:
 
 ```js title="routes/images.js"
 const multer = require('multer')
