@@ -68,6 +68,15 @@ const config = {
         routeBasePath: 'docs/osc-docs',
         editUrl: 'https://github.com/ufosc/osc-docs/blob/main'
       }
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'swamp-scheduler',
+        path: 'docs/swamp-scheduler',
+        routeBasePath: 'docs/swamp-scheduler',
+        editUrl: 'https://github.com/ufosc/osc-docs/blob/main'
+      }
     ]
   ],
 
@@ -96,6 +105,11 @@ const config = {
         position: 'left'
       },
       {
+        to: 'docs/swamp-scheduler',
+        label: 'Swamp Scheduler',
+        position: 'left'
+      },
+      {
         href: 'https://ufosc.org',
         label: 'ufosc.org',
         position: 'right'
@@ -118,6 +132,10 @@ const config = {
         {
           label: 'OSC Docs',
           to: '/docs/osc-docs'
+        },
+        {
+          label: 'Swamp Scheduler',
+          to: '/docs/swamp-scheduler'
         }
         ]
       },

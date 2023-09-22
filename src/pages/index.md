@@ -14,6 +14,7 @@ Each semester, members meet and collaborate to build open source projects. Their
 * [Club Archive](/docs/club): Archive of club presentations, notes, etc.
 * [OSC Website](/docs/website): User & Developer Documentation for the [OSC website](https://ufosc.org).
 * [OSC Docs](/docs/osc-docs): Developer Documentation for the OSC Docs website.
+* [Swamp Scheduler](/docs/swamp-scheduler): Developer Documentation for the Swamp Scheduler web-app.
 
 ## Contributing
 
