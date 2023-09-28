@@ -99,9 +99,12 @@ To add a new subsite, first make sure that you've created a subfolder for your p
 }
 ```
 
+### Adding the subsite to the navigation bar
+
 To add your subsite to the website's navigation bar, navigate to the `themeConfig` property in `docusaurus.config.js` and add the following:
 
 ```js title="docusaurus.config.js"
+// themeConfig.navbar attribute.
 navbar: {
       title: 'OSC Docs',
       logo: {
@@ -118,6 +121,44 @@ navbar: {
 		  // ...
 	  ]
 }
+```
+:::tip Flagship Projects Only
+Since navigation bar space is limited, please consider adding only flagship projects (i.e popular or actively maintained projects). The purpose of the navigation bar is provide high-visibility, convenient access to documentation pages; project that aren't being actively used or maintained should should be removed when new project sub-sites are created.
+:::
+
+### Adding the subsite to the footer
+The site's footer has a section demarcated as "Projects" that tracks documentation subsites. It is an alternative to the navigation bar that can be used to expose lower-priority or less frequently used subsites. To add a subsite to the footer, navigate to the `themeConfig` property in `docusaurus.config.js` and add your label and path to the themeConfig.footer.links object:
+
+```js title="docusaurus.config.js"
+// See the themeConfig.footer.links attribute.
+footer: {
+	style: 'dark',
+	links: [{
+		title: 'Projects',
+        items: [{
+          label: 'OSC Website',
+          to: '/docs/website'
+        },
+        {
+          label: 'OSC Docs',   // Subsite label
+          to: '/docs/osc-docs' // Subsite routeBasePath
+        },
+        ]
+      },
+	// ...
+}
+```
+
+### Adding the subsite to the home page
+The home page index should list all available projects, regardless of priority or intended visibility. All project subsites should be listed. To add a project to the index, navigate to the "Documentation Index" header in 'src/pages/index.md':
+
+```md title="src/pages/index.md"
+## Documentation Index
+
+* [Club Archive](/docs/club): Archive of club presentations, notes, etc.
+* [OSC Website](/docs/website): User & Developer Documentation for the [OSC website](https://ufosc.org).
+* [OSC Docs](/docs/osc-docs): Developer Documentation for the OSC Docs website.
+* [Swamp Scheduler](/docs/swamp-scheduler): Developer Documentation for the Swamp Scheduler web-app.
 ```
 
 ## Previewing your Changes Live
