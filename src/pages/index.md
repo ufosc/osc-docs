@@ -23,8 +23,7 @@ All projects by the UF Open Source Club are governed by open-source licenses. In
 If you wish to contribute to OSC Docs, navigate to its [GitHub Repository](https://github.com/ufosc/osc-docs). Alternatively, clicking on the "Edit this page" button on your desired documentation page will redirect you to the source code for that particular page, where you'll be able to contribute.
 
 ## Contact
-You can reach the UF OSC team via email at gator.osc(at)cise.ufl.edu <br />
-Or via the [contact form](https://ufosc.org/#contact).
+You can reach the UF OSC team via email at gator.osc(at)gmail.com or via the [contact form](https://ufosc.org/#contact).
 
 ## License
 
