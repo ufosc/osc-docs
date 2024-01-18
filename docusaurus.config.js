@@ -91,17 +91,17 @@ const config = {
       },
       items: [{
         to: 'docs/club',
-        label: 'Club Archive',
+        label: 'Archive',
         position: 'left'
       },
       {
         to: 'docs/website',
-        label: 'OSC Website',
+        label: 'Website',
         position: 'left'
       },
       {
         to: 'docs/osc-docs',
-        label: 'OSC Docs',
+        label: 'Docs',
         position: 'left'
       },
       {
