@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkosc_docs=self.webpackChunkosc_docs||[]).push([[4819],{9229:s=>{s.exports=JSON.parse('{"name":"docusaurus-plugin-content-docs","id":"swamp-scheduler"}')}}]);
