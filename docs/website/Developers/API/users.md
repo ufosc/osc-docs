@@ -182,7 +182,7 @@ If the ID is valid but not longer exists, the following JSON object is returned:
 { "error": "ID does not exist" }
 ```
 
-To maintain database collection consistency, and prevent unexpected collision/behavior from renamed image IDs, modifying the ID parameter of users is prohibited. If a client attempts to send a JSON request body with an `id` or `_id` key, the following error will be returned:
+To maintain database collection consistency, and prevent unexpected collision/behavior from renamed user IDs, modifying the ID parameter of users is prohibited. If a client attempts to send a JSON request body with an `id` or `_id` key, the following error will be returned:
 
 ```json title="routes/blog.js"
 { "error": "Setting custom user ID is prohibited" }

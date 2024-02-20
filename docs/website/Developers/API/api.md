@@ -10,8 +10,7 @@ The OSC website API exists to serve, create, modify, and delete dynamic resource
 1. Blog metadata and rendered HTML articles (documented in [Developers/API/blog](/docs/website/Developers/API/blog)).
 2. Passing contact messages to the SMTP mail server (documented in [Developers/API/contact](/docs/website/Developers/API/contact)).
 3. Serving the various editable forms (documented in [Developers/API/edit](/docs/website/Developers/API/edit)).
-4. Serving and storing blog images (documented in [Developers/API/images](/docs/website/Developers/API/images)).
-5. User authentication (documented in [Developers/API/users](/docs/website/Developers/API/users)).
+4. User authentication (documented in [Developers/API/users](/docs/website/Developers/API/users)).
 
 In the source code, each route occupies a separate file in the [routes folder](https://github.com/ufosc/Club_Website_2/tree/main/routes), and all routes are subsequently organized in [routes/api.js](https://github.com/ufosc/Club_Website_2/blob/main/routes/api.js).
 
@@ -46,7 +45,7 @@ router.put('/', (req, res) => { /* ... */ })
 
 ## Express Router
 
-The express router, part of the Expressjs framework, enables developers to create and export APIs modularly. Meaning, an API can be developed according to some relative path (e.g `/images`), imported into another router, and then served over some other, more abstract path (e.g `/api/images`). Consider the following example:
+The express router, part of the Expressjs framework, enables developers to create and export APIs modularly. Meaning, an API can be developed according to some relative path (e.g `/users`), imported into another router, and then served over some other, more abstract path (e.g `/api/users`). Consider the following example:
 
 ```js title="File A"
 const express = require('express')

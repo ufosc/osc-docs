@@ -66,22 +66,6 @@ spec:
 	  # The amount of persistent storage to allocate.
       storage: 1Gi
 ---
-# A volume is a persistent store of data.
-# This is the volume for storing image uploads.
-apiVersion: v1
-kind: PersistentVolumeClaim
-metadata:
-  name: osc-website-volume-uploads
-  labels:
-    app: osc-website
-spec:
-  accessModes:
-    - ReadWriteOnce
-  resources:
-    requests:
-      # The amount of persistent storage to allocate.
-      storage: 1Gi
----
 # A deployment provides a declarative way to describe the desired state of
 # an application. In this case, the desired state is to have at least 1
 # replica of Mongodb and the OSC Website running on the node.

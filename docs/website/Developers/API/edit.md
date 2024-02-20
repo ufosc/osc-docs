@@ -6,7 +6,7 @@ sidebar_position: 4
 
 # Edit Route
 
-The edit route renders the 'edit' pages that enable admins to create and modify articles, images, and other users. They return templated EJS sites that automatically fetch the requested resource's data and render it into editable HTML forms.
+The edit route renders the 'edit' pages that enable admins to create and modify articles, and other users. They return templated EJS sites that automatically fetch the requested resource's data and render it into editable HTML forms.
 
 This set of routes is responsible for returning one of two possible options - both via the same EJS templates - for each form:
 
@@ -119,24 +119,4 @@ If the client is not authenticated, a 403 forbidden error will be returned.
 
 ```bash
 curl -XGET --cookie "jwt=<AUTH COOKIE>" 'https://ufosc.org/api/edit/user/<USER ID HERE>'
-```
-
-## Upload new image: (GET) /api/edit/image
-
-This route returns the image upload form with no pre-filled fields. The form's template is implemented in [/views/edit-image.ejs](https://github.com/ufosc/Club_Website_2/blob/main/views/edit-image.ejs).
-
-Since images are minimally customizable, their modification form does not exist. Instead, users may delete an existing image and replace it by uploading a new one.
-
-This route is authenticated. It responds with an HTML page.
-
-### Request Parameters
-
-| Parameter    | Description            |
-|--------------|------------------------|
-| JWT (cookie) | (Required) Auth cookie |
-
-### Example
-
-```bash
-curl -XGET --cookie "jwt=<AUTH COOKIE>" 'https://ufosc.org/api/edit/image'
 ```
