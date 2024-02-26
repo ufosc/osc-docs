@@ -77,6 +77,15 @@ const config = {
         routeBasePath: 'docs/swamp-scheduler',
         editUrl: 'https://github.com/ufosc/osc-docs/blob/main'
       }
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'OpenWebServices',
+        path: 'docs/ows',
+        routeBasePath: 'docs/ows',
+        editUrl: 'https://github.com/ufosc/osc-docs/blob/main'
+      }
     ]
   ],
 
@@ -110,6 +119,11 @@ const config = {
         position: 'left'
       },
       {
+        to: 'docs/ows',
+        label: 'OpenWebServices',
+        position: 'left'
+      },
+      {
         href: 'https://ufosc.org',
         label: 'ufosc.org',
         position: 'right'
@@ -136,6 +150,10 @@ const config = {
         {
           label: 'Swamp Scheduler',
           to: '/docs/swamp-scheduler'
+        },
+        {
+          label: 'OpenWebServices',
+          to: '/docs/ows'
         }
         ]
       },
