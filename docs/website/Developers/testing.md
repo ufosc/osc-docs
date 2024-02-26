@@ -17,7 +17,6 @@ Source code and documentation indices for currently available unit tests.
  * Blog API Route Tests: [GitHub](https://github.com/ufosc/Club_Website_2/blob/main/test/blog.spec.js) or [Docs](/docs/website/Developers/API/blog).
  * Cache Tests: [GitHub](https://github.com/ufosc/Club_Website_2/blob/main/test/cache.spec.js) or [Docs](/docs/website/Developers/caching).
  * Edit API Route Tests: [GitHub](https://github.com/ufosc/Club_Website_2/blob/main/test/edit.spec.js) or [Docs](/docs/website/Developers/API/edit).
- * Images API Route Tests: [GitHub](https://github.com/ufosc/Club_Website_2/blob/main/test/images.spec.js) or [Docs](/docs/website/Developers/API/images).
  * Users API Route Tests: [GitHub](https://github.com/ufosc/Club_Website_2/blob/main/test/users.spec.js) or [Docs](/docs/website/Developers/API/users).
 
 ## Running Tests
