@@ -1,6 +1,5 @@
 // @ts-check
-const darkCodeTheme = require('prism-react-renderer/themes/oceanicNext')
-const lightCodeTheme = require('prism-react-renderer/themes/shadesOfPurple')
+import {themes as prismThemes} from 'prism-react-renderer'
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -72,15 +71,6 @@ const config = {
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'swamp-scheduler',
-        path: 'docs/swamp-scheduler',
-        routeBasePath: 'docs/swamp-scheduler',
-        editUrl: 'https://github.com/ufosc/osc-docs/blob/main'
-      }
-    ],
-    [
-      '@docusaurus/plugin-content-docs',
-      {
         id: 'OpenWebServices',
         path: 'docs/ows',
         routeBasePath: 'docs/ows',
@@ -114,11 +104,6 @@ const config = {
         position: 'left'
       },
       {
-        to: 'docs/swamp-scheduler',
-        label: 'Swamp Scheduler',
-        position: 'left'
-      },
-      {
         to: 'docs/ows',
         label: 'OpenWebServices',
         position: 'left'
@@ -146,10 +131,6 @@ const config = {
         {
           label: 'OSC Docs',
           to: '/docs/osc-docs'
-        },
-        {
-          label: 'Swamp Scheduler',
-          to: '/docs/swamp-scheduler'
         },
         {
           label: 'OpenWebServices',
@@ -193,8 +174,7 @@ const config = {
       copyright: `Copyright © ${new Date().getFullYear()} UF Open Source Club. Licensed under AGPL-3.0-or-later`
     },
     prism: {
-      darkTheme: darkCodeTheme,
-      lightTheme: lightCodeTheme
+      theme: prismThemes.dracula
     }
   })
 }
