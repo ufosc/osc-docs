@@ -11,10 +11,10 @@ This page is part of the documentation for release V1.0. This documentation is o
 :::
 
 The OSC website API exists to serve, create, modify, and delete dynamic resources, for instance:
-1. Blog metadata and rendered HTML articles (documented in [Developers/API/blog](/docs/website/Developers/API/blog)).
-2. Passing contact messages to the SMTP mail server (documented in [Developers/API/contact](/docs/website/Developers/API/contact)).
-3. Serving the various editable forms (documented in [Developers/API/edit](/docs/website/Developers/API/edit)).
-4. User authentication (documented in [Developers/API/users](/docs/website/Developers/API/users)).
+1. Blog metadata and rendered HTML articles (documented in [Developers/API/blog](/docs/website/legacy/Developers/API/blog)).
+2. Passing contact messages to the SMTP mail server (documented in [Developers/API/contact](/docs/website/legacy/Developers/API/contact)).
+3. Serving the various editable forms (documented in [Developers/API/edit](/docs/website/legacy/Developers/API/edit)).
+4. User authentication (documented in [Developers/API/users](/docs/website/legacy/Developers/API/users)).
 
 In the source code, each route occupies a separate file in the [routes folder](https://github.com/ufosc/Club_Website_2/tree/main/routes), and all routes are subsequently organized in [routes/api.js](https://github.com/ufosc/Club_Website_2/blob/main/routes/api.js).
 

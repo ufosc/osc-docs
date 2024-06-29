@@ -15,7 +15,7 @@ Kubernetes, often abbreviated as K8s, is an open-source container orchestration 
 Kubernetes is based on Docker, an open-source platform and a set of tools for creating, deploying, and managing containerized applications. To deploy the website on Kubernetes, you'll first need to build the website's container image.
 
 ## Prerequisites
-1. Complete the [Getting Started](/docs/website/Developers/introduction) guide.
+1. Complete the [Getting Started](/docs/website/legacy/Developers/introduction) guide.
 2. [Docker](https://www.docker.com/): build the website container image.
 3. Kubernetes Cluster & Kubectl: Use a cloud hosting platform or [launch a Kubernetes node on Docker](https://docs.docker.com/desktop/kubernetes/).
 
@@ -257,7 +257,7 @@ See Google's documentation [here](https://cloud.google.com/load-balancing/docs/u
 
 ## Creating an Admin
 
-The Kubernetes config sets up the website with an empty database, which makes logging in to the site is impossible. This is solved by connecting to the Mongo container and calling mongosh to add the first user. This process should only be done once, additional admins can be added through the [admin dashboard](/docs/website/admin).
+The Kubernetes config sets up the website with an empty database, which makes logging in to the site is impossible. This is solved by connecting to the Mongo container and calling mongosh to add the first user. This process should only be done once, additional admins can be added through the [admin dashboard](/docs/website/legacy/admin).
 
 First, get a list of all pods
 ```bash
@@ -286,6 +286,6 @@ use test
 db.users.insertOne({"username": "admin","password": {"hash": "�a2O���w��\u0004��Ȳ��7\u000fM�2\u0011�<\u0015z\u0016\u0019E*��cЮ\u0010\u001e\u0015���ւ)�Ne��G�VH/��9�����q\u0003�\t��פ}���i��Y�\u00125��d3�V�\t6������W;�~���?A��\u001c��X8��/\u0012��\u0007)t��9\u0001<","salt": "4vRF0ZTMELWmPGMpAgy6hsiJm/pOUlgPYFk+faK+yaFv/x0+lITG+4kX/y5bXudjMdGWLN2PV8UhH5s5dRLPaGgh2qwrbocDqEdyvbqSqVPAQxKIwFSytoRySYfKZJdCgK970UmrPDyGmoAIRZ/DN8YZ4fTirkSAeRlTWLSbyfg="},"fullName": "admin","role": "admin","isAdmin": true,"date": {"$date": "2023-09-17T15:53:18.529Z"},"__v": 0})
 ```
 
-The command above adds a user with the username `admin` and password `123456`. You should now reset the admin's password using the [admin dashboard](/docs/website/admin) as soon as possible to prevent attackers from logging in with the default credentials. Resetting the password through the admin dashboard should reset the password salt as well.
+The command above adds a user with the username `admin` and password `123456`. You should now reset the admin's password using the [admin dashboard](/docs/website/legacy/admin) as soon as possible to prevent attackers from logging in with the default credentials. Resetting the password through the admin dashboard should reset the password salt as well.
 
 Finally, type `exit` and press enter to exit the mongosh console. Type `exit` and press enter once again to close the connection to the pod.

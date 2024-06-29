@@ -22,7 +22,7 @@ The contact route is defined in [/routes/contact.js](https://github.com/ufosc/Cl
 
 This route expects the contact form's field data (as JSON). If the data is successfully validated, it sends an email to the admin account notifying it of the new message, whilst also sending a receipt of the submitted form to the specified email address of the submitter.
 
-Email protocol interfacing is achieved via an SMTP server, which receives and processes outgoing server mail. For configuration instructions, see [configuration](/docs/website/Developers/configuration).
+Email protocol interfacing is achieved via an SMTP server, which receives and processes outgoing server mail. For configuration instructions, see [configuration](/docs/website/legacy/Developers/configuration).
 
 ### Request Parameters
 

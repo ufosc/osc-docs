@@ -10,7 +10,7 @@ sidebar_position: 2
 This page is part of the documentation for release V1.0. This documentation is outdated and V1.0 is no longer maintained. See [index](/docs/website/) for the latest information.
 :::
 
-The blog route interfaces with the blog [database model](/docs/website/Developers/Databases/models) and dynamically renders blog articles.
+The blog route interfaces with the blog [database model](/docs/website/legacy/Developers/Databases/models) and dynamically renders blog articles.
 
 :::tip routes/blog.js
 
@@ -66,7 +66,7 @@ curl -XGET 'https://ufosc.org/api/blog'
 
 This route fetches articles by the specified URL ID parameter and returns them as rendered HTML. An error article is rendered if the ID is invalid or non-existent.
 
-Articles whose status is not 'published' (e.g 'draft') are only visible to authenticated users. They do not render on the /blog page, but may be accessed by authenticated users if their ID is known. Generally, authenticated users may access these posts by clicking on the 'preview' button alongside their table entries in the [admin dashboard](/docs/website/admin).
+Articles whose status is not 'published' (e.g 'draft') are only visible to authenticated users. They do not render on the /blog page, but may be accessed by authenticated users if their ID is known. Generally, authenticated users may access these posts by clicking on the 'preview' button alongside their table entries in the [admin dashboard](/docs/website/legacy/admin).
 
 ### Request Parameters
 

@@ -13,9 +13,9 @@ This page is part of the documentation for release V1.0. This documentation is o
 
 This page hosts user and developer documentation for the official [OSC Website](https://ufosc.org).
 
- * [Admin Dashboard](/docs/website/admin): User guide to using the website's built-in content management system.
- * [Developers](/docs/website/Developers/introduction): Developer documentation for contributing/modifying the OSC website.
- * [API Reference](/docs/website/api-reference): Reference of the site's public API.
+ * [Admin Dashboard](/docs/website/legacy/admin): User guide to using the website's built-in content management system.
+ * [Developers](/docs/website/legacy/Developers/introduction): Developer documentation for contributing/modifying the OSC website.
+ * [API Reference](/docs/website/legacy/api-reference): Reference of the site's public API.
 
 
 You may find the project's source on [Github](https://github.com/ufosc/Club_Website_2) (subject to the [AGLP-3.0-or-later license](https://github.com/ufosc/Club_Website_2/blob/main/LICENSE.md)).

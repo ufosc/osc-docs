@@ -18,15 +18,15 @@ Any contribution to the OSC Website source code must pass testing and linting wo
 
 Source code and documentation indices for currently available unit tests.
 
- * Blog API Route Tests: [GitHub](https://github.com/ufosc/Club_Website_2/blob/main/test/blog.spec.js) or [Docs](/docs/website/Developers/API/blog).
- * Cache Tests: [GitHub](https://github.com/ufosc/Club_Website_2/blob/main/test/cache.spec.js) or [Docs](/docs/website/Developers/caching).
- * Edit API Route Tests: [GitHub](https://github.com/ufosc/Club_Website_2/blob/main/test/edit.spec.js) or [Docs](/docs/website/Developers/API/edit).
- * Users API Route Tests: [GitHub](https://github.com/ufosc/Club_Website_2/blob/main/test/users.spec.js) or [Docs](/docs/website/Developers/API/users).
+ * Blog API Route Tests: [GitHub](https://github.com/ufosc/Club_Website_2/blob/main/test/blog.spec.js) or [Docs](/docs/website/legacy/Developers/API/blog).
+ * Cache Tests: [GitHub](https://github.com/ufosc/Club_Website_2/blob/main/test/cache.spec.js) or [Docs](/docs/website/legacy/Developers/caching).
+ * Edit API Route Tests: [GitHub](https://github.com/ufosc/Club_Website_2/blob/main/test/edit.spec.js) or [Docs](/docs/website/legacy/Developers/API/edit).
+ * Users API Route Tests: [GitHub](https://github.com/ufosc/Club_Website_2/blob/main/test/users.spec.js) or [Docs](/docs/website/legacy/Developers/API/users).
 
 ## Running Tests
 :::danger
 
-Tests are only meant to be ran on development environments. Do not use production databases in testing, their contents <b>risk being deleted</b>. To learn more about managing environments, see [Usage & Configuration](/docs/website/Developers/configuration).
+Tests are only meant to be ran on development environments. Do not use production databases in testing, their contents <b>risk being deleted</b>. To learn more about managing environments, see [Usage & Configuration](/docs/website/legacy/Developers/configuration).
 
 :::
 

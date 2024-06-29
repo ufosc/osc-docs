@@ -16,7 +16,7 @@ The database's structure is defined by the following collections:
 
 :::note
 
-To learn more about using models with MongooseJS, see [Using MongoDB](/docs/website/Developers/Databases/mongodb).
+To learn more about using models with MongooseJS, see [Using MongoDB](/docs/website/legacy/Developers/Databases/mongodb).
 
 :::
 
@@ -24,4 +24,4 @@ Model instances are created and saved to the database in each model's correspond
 * Blog posts are managed in [routes/blog.js](https://github.com/ufosc/Club_Website_2/blob/main/routes/blog.js).
 * Users are managed in [routes/users.js](https://github.com/ufosc/Club_Website_2/blob/main/routes/users.js).
 
-To learn more about routes, see [API & Routes](/docs/website/Developers/API/).
+To learn more about routes, see [API & Routes](/docs/website/legacy/Developers/API/).

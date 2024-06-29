@@ -15,7 +15,7 @@ Routes are currently limited to 100-500 (may vary) requests per minute.
 :::
 :::note
 
-The OSC Website API is intended for internal use only. Only non-authenticated public routes have been documented here. If you're seeking documentation for a self-hosted instance, refer to the [developers guide](/docs/website/Developers/API/) instead.
+The OSC Website API is intended for internal use only. Only non-authenticated public routes have been documented here. If you're seeking documentation for a self-hosted instance, refer to the [developers guide](/docs/website/legacy/Developers/API/) instead.
 
 :::
 
@@ -67,7 +67,7 @@ curl -XGET 'https://ufosc.org/api/blog'
 
 This route fetches articles by the specified URL ID parameter and returns them as rendered HTML. An error article is rendered if the ID is invalid or non-existent.
 
-Articles whose status is not 'published' (e.g 'draft') are only visible to authenticated users. They do not render on the /blog page, but may be accessed by authenticated users if their ID is known. Generally, authenticated users may access these posts by clicking on the 'preview' button alongside their table entries in the [admin dashboard](/docs/website/admin).
+Articles whose status is not 'published' (e.g 'draft') are only visible to authenticated users. They do not render on the /blog page, but may be accessed by authenticated users if their ID is known. Generally, authenticated users may access these posts by clicking on the 'preview' button alongside their table entries in the [admin dashboard](/docs/website/legacy/admin).
 
 ### Request Parameters
 

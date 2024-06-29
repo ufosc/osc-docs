@@ -10,7 +10,7 @@ sidebar_position: 6
 This page is part of the documentation for release V1.0. This documentation is outdated and V1.0 is no longer maintained. See [index](/docs/website/) for the latest information.
 :::
 
-The users route interfaces with the users  [database model](/docs/website/Developers/Databases/models) and serves users using their database ID.
+The users route interfaces with the users  [database model](/docs/website/legacy/Developers/Databases/models) and serves users using their database ID.
 
 :::tip routes/users.js
 
