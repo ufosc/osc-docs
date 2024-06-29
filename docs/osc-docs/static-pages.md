@@ -12,20 +12,20 @@ To add the site to the website's topmost navigation bar, navigate to the `themeC
 
 ```js title="docusaurus.config.js"
 navbar: {
-      title: 'OSC Docs',
-      logo: {
-        alt: 'OSC Logo',
-        src: 'img/logo.png'
-      },
-      items: [
-		  // ....
-		  {
-			  to: 'docs/club',       // Your subsite routeBasePath
-			  label: 'Club Archive', // Label to appear on the navmenu.
-			  position: 'left'
-		  }
-		  // ...
-	  ]
+  title: 'OSC Docs',
+  logo: {
+    alt: 'OSC Logo',
+    src: 'img/logo.png'
+  },
+  items: [
+    // ....
+    {
+      to: 'docs/club',       // Your subsite routeBasePath
+      label: 'Club Archive', // Label to appear on the navmenu.
+      position: 'left'
+    }
+    // ...
+  ]
 }
 ```
 

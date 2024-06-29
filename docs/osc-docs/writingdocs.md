@@ -85,17 +85,17 @@ To add a new subsite, first make sure that you've created a subfolder for your p
 
 ```js title="docusaurus.config.js"
 {
-	plugins: [
-		[
-			'@docusaurus/plugin-content-docs',
-			{
-				id: 'website',                 // a unique ID for your project
-				path: 'docs/website',          // the path to your docs folder
-				routeBasePath: 'docs/website', // the path on the website's URL
-				editUrl: 'https://github.com/ufosc/osc-docs'
-			}
-		],
-	]
+  plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'website',                 // a unique ID for your project
+        path: 'docs/website',          // the path to your docs folder
+        routeBasePath: 'docs/website', // the path on the website's URL
+        editUrl: 'https://github.com/ufosc/osc-docs'
+      }
+    ],
+  ]
 }
 ```
 
@@ -106,20 +106,20 @@ To add your subsite to the website's navigation bar, navigate to the `themeConfi
 ```js title="docusaurus.config.js"
 // themeConfig.navbar attribute.
 navbar: {
-      title: 'OSC Docs',
-      logo: {
-        alt: 'OSC Logo',
-        src: 'img/logo.png'
-      },
-      items: [
-		  // ....
-		  {
-			  to: 'docs/club',       // Your subsite routeBasePath
-			  label: 'Club Archive', // Label to appear on the navmenu.
-			  position: 'left'
-		  }
-		  // ...
-	  ]
+  title: 'OSC Docs',
+  logo: {
+    alt: 'OSC Logo',
+    src: 'img/logo.png'
+  },
+  items: [
+    // ....
+    {
+      to: 'docs/club',       // Your subsite routeBasePath
+      label: 'Club Archive', // Label to appear on the navmenu.
+      position: 'left'
+    }
+    // ...
+  ]
 }
 ```
 :::tip Flagship Projects Only
@@ -132,20 +132,21 @@ The site's footer has a section demarcated as "Projects" that tracks documentati
 ```js title="docusaurus.config.js"
 // See the themeConfig.footer.links attribute.
 footer: {
-	style: 'dark',
-	links: [{
-		title: 'Projects',
-        items: [{
-          label: 'OSC Website',
-          to: '/docs/website'
-        },
-        {
-          label: 'OSC Docs',   // Subsite label
-          to: '/docs/osc-docs' // Subsite routeBasePath
-        },
-        ]
+  style: 'dark',
+  links: [{
+    title: 'Projects',
+    items: [
+      {
+        label: 'OSC Website',
+        to: '/docs/website'
       },
-	// ...
+      {
+        label: 'OSC Docs',   // Subsite label
+        to: '/docs/osc-docs' // Subsite routeBasePath
+      },
+    ]
+  },
+  // ...
 }
 ```
 
