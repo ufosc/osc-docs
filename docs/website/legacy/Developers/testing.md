@@ -6,6 +6,10 @@ sidebar_position: 8
 
 # Testing & Linting
 
+:::danger OUTDATED
+This page is part of the documentation for release V1.0. This documentation is outdated and V1.0 is no longer maintained. See [index](/docs/website/) for the latest information.
+:::
+
 The project currently maintains unit tests for several backend routes and routines - no automated frontend testing has been implemented. The unit testing library used is [MochaJS](https://mochajs.org/), coupled with [ChaiJS](https://www.chaijs.com/) for testing assertions. Additionally, a linter has been configured to automatically format code according to the [JavaScript Standard Style](https://standardjs.com/).
 
 Any contribution to the OSC Website source code must pass testing and linting workflows, as well as implement new tests where necessary. See: [contributing](https://github.com/ufosc/Club_Website_2/blob/main/CONTRIBUTING.md).

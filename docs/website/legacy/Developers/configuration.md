@@ -6,6 +6,10 @@ sidebar_position: 2
 
 # Usage & Configuration
 
+:::danger OUTDATED
+This page is part of the documentation for release V1.0. This documentation is outdated and V1.0 is no longer maintained. See [index](/docs/website/) for the latest information.
+:::
+
 ## Usage
 ### Starting the webserver:
 ```bash

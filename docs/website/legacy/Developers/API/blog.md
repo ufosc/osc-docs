@@ -6,6 +6,10 @@ sidebar_position: 2
 
 # Blog Route
 
+:::danger OUTDATED
+This page is part of the documentation for release V1.0. This documentation is outdated and V1.0 is no longer maintained. See [index](/docs/website/) for the latest information.
+:::
+
 The blog route interfaces with the blog [database model](/docs/website/Developers/Databases/models) and dynamically renders blog articles.
 
 :::tip routes/blog.js

@@ -6,6 +6,10 @@ sidebar_position: 4
 
 # Edit Route
 
+:::danger OUTDATED
+This page is part of the documentation for release V1.0. This documentation is outdated and V1.0 is no longer maintained. See [index](/docs/website/) for the latest information.
+:::
+
 The edit route renders the 'edit' pages that enable admins to create and modify articles, and other users. They return templated EJS sites that automatically fetch the requested resource's data and render it into editable HTML forms.
 
 This set of routes is responsible for returning one of two possible options - both via the same EJS templates - for each form:

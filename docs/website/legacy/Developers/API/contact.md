@@ -6,6 +6,10 @@ sidebar_position: 3
 
 # Contact Route
 
+:::danger OUTDATED
+This page is part of the documentation for release V1.0. This documentation is outdated and V1.0 is no longer maintained. See [index](/docs/website/) for the latest information.
+:::
+
 The contact route manages the website contact form. It validates email addresses and form input fields, and (if applicable) sends emails to both the OSC and form-user's email addresses.
 
 :::tip routes/contact.js

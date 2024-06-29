@@ -6,6 +6,10 @@ sidebar_position: 2
 
 # Database Models
 
+:::danger OUTDATED
+This page is part of the documentation for release V1.0. This documentation is outdated and V1.0 is no longer maintained. See [index](/docs/website/) for the latest information.
+:::
+
 The database's structure is defined by the following collections:
 1. Blogs (defined in [model/blog.js](https://github.com/ufosc/Club_Website_2/blob/main/model/blog.js))
 2. Users (defined in [model/users.js](https://github.com/ufosc/Club_Website_2/blob/main/model/users.js))

@@ -4,6 +4,10 @@ description: Club Website API Reference
 sidebar_position: 4
 ---
 
+:::danger OUTDATED
+This page is part of the documentation for release V1.0. This documentation is outdated and V1.0 is no longer maintained. See [index](/docs/website/) for the latest information.
+:::
+
 :::caution Rate Limit
 
 Routes are currently limited to 100-500 (may vary) requests per minute.

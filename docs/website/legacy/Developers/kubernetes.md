@@ -6,6 +6,10 @@ sidebar_position: 9
 
 # Deploying to Kubernetes
 
+:::danger OUTDATED
+This page is part of the documentation for release V1.0. This documentation is outdated and V1.0 is no longer maintained. See [index](/docs/website/) for the latest information.
+:::
+
 Kubernetes, often abbreviated as K8s, is an open-source container orchestration platform used for automating the deployment, scaling, and management of containerized applications. With Kubernetes, you can set up a configuration file that automatically deploys the website's infrastructure in seconds.
 
 Kubernetes is based on Docker, an open-source platform and a set of tools for creating, deploying, and managing containerized applications. To deploy the website on Kubernetes, you'll first need to build the website's container image.

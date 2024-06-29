@@ -4,6 +4,10 @@ description: Club Website Using the Admin Console
 sidebar_position: 2
 ---
 
+:::danger OUTDATED
+This page is part of the documentation for release V1.0. This documentation is outdated and V1.0 is no longer maintained. See [index](/docs/website/) for the latest information.
+:::
+
 # Admin Dashboard
 
 The OSC website implements a minimal content management system for managing site users, blog posts, and images. This section of the documentation is intended as a users guide. For developer documentation see the [developer guide](/docs/website/Developers/introduction).

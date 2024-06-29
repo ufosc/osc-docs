@@ -4,6 +4,10 @@ description: Club Website Developer Introduction
 sidebar_position: 1
 ---
 
+:::danger OUTDATED
+This page is part of the documentation for release V1.0. This documentation is outdated and V1.0 is no longer maintained. See [index](/docs/website/) for the latest information.
+:::
+
 The OSC Club Website is built in NodeJS, using EJS as a frontend framework and ExpressJS for backend hosting. Our objective was to maximize resource-loading performance and consequently minimise resource sizes and overhead. For this reason, we opted against modern front-end frameworks (React, Angular, etc.) and instead built a dynamic full-stack site - essentially relying on the backend for processing, rather than serving a resource-heavy frontend that pulls data via APIs.
 
 Moreover, we hoped that this approach would better support beginner programmers at the University of Florida in learning the fundamentals of web development: HTML, CSS, and vanilla JavaScript.

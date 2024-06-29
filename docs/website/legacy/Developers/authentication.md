@@ -6,6 +6,10 @@ sidebar_position: 7
 
 # Authentication
 
+:::danger OUTDATED
+This page is part of the documentation for release V1.0. This documentation is outdated and V1.0 is no longer maintained. See [index](/docs/website/) for the latest information.
+:::
+
 :::tip Source Code
 
 The authentication routine is specified in the [/auth](https://github.com/ufosc/Club_Website_2/blob/main/auth/auth.js) source folder.

@@ -6,6 +6,10 @@ sidebar_position: 1
 
 # Using MongoDB
 
+:::danger OUTDATED
+This page is part of the documentation for release V1.0. This documentation is outdated and V1.0 is no longer maintained. See [index](/docs/website/) for the latest information.
+:::
+
 The website uses [MongoDB](https://www.mongodb.com/), a document-oriented database program, to fetch and serve information for the backend. When running in a development environment, the backend is automatically configured to connect to a public OSC testing database. This section documents the basic prolegomena of operating and managing the OSC Website database.
 
 For the OSC testing URI, see [here](https://github.com/ufosc/Club_Website_2/blob/main/utils/config.js#L3) (note that the database is public and volatile, and not meant for production environments). For instructions on changing environments or configuring your own Mongo connection URI, see [here](/docs/website/Developers/configuration).
@@ -100,4 +104,3 @@ Database.js is imported, and a database connection is subsequently opened in [ma
 ## Setting up your own database
 
 If you're interested in hosting your own instance of the website, you'll need to set up your own MongoDB node. The MongoDB team currently offers free (but limited) database hosting on their [MongoDB Atlas](https://www.mongodb.com/atlas) platform. Alternatively, you can set up MongoDB [community edition](https://www.mongodb.com/try/download/community) on your machine and host your own instance for "free."
-

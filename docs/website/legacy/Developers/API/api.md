@@ -6,6 +6,10 @@ sidebar_position: 1
 
 # API & Routes
 
+:::danger OUTDATED
+This page is part of the documentation for release V1.0. This documentation is outdated and V1.0 is no longer maintained. See [index](/docs/website/) for the latest information.
+:::
+
 The OSC website API exists to serve, create, modify, and delete dynamic resources, for instance:
 1. Blog metadata and rendered HTML articles (documented in [Developers/API/blog](/docs/website/Developers/API/blog)).
 2. Passing contact messages to the SMTP mail server (documented in [Developers/API/contact](/docs/website/Developers/API/contact)).

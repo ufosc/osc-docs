@@ -6,6 +6,10 @@ sidebar_position: 10
 
 # Contributing Guide
 
+:::danger OUTDATED
+This page is part of the documentation for release V1.0. This documentation is outdated and V1.0 is no longer maintained. See [index](/docs/website/) for the latest information.
+:::
+
 :::danger Static Copy
 
 This is a copy of the contributing guide originally hosted on Github, reproduced here solely for presentation purposes. It may not be up-to-date. Developers should refer to the [original copy](https://github.com/ufosc/Club_Website_2/blob/main/CONTRIBUTING.md) whenever possible.
