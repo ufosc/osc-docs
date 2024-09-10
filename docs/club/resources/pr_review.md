@@ -7,7 +7,7 @@ sidebar_position: 8
 # Reviewing Pull Requests
 
 :::note
-This guide assumes you already have your own clone of the respotiory based on your own fork (or the main project).
+This guide assumes you already have your own clone of the repository based on your own fork (or the main project).
 :::
 
 If you are someone in charge of reviewing pull requests for an open source repository on GitHub (like a tech lead), you'll need to know how to review pull requests. This guide will help you understand the process of reviewing pull requests and how to provide feedback to contributors.
