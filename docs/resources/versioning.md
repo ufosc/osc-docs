@@ -1,7 +1,7 @@
 ---
 title: Versioning Guide
 description: Club Archive Resources Versioning Guide
-sidebar_position: 4
+sidebar_position: 9
 ---
 
 Versioning is how projects describe differentiate between different versions of their software. Typically this is done via a number designation such as 1.2.6. The Open Source Club follow **Semantic Versioning** guidelines. This boils down to each number meaning MajorChange.MinorChange.Patch.

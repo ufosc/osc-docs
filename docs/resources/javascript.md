@@ -1,7 +1,7 @@
 ---
 title: JavaScript Guide
 description: Club Archive Resources JavaScript Guide
-sidebar_position: 3
+sidebar_position: 6
 ---
 
 JavaScript (JS) is a lightweight interpreted or JIT (Just In Time)-compiled programming language with first-class functions. It is primarily used to add functionality to a webpage. Anything from modifying the page itself, to fetching content, logging in users, or holding a video call.

@@ -1,7 +1,7 @@
 ---
 title: Rust Guide
 description: Club Archive Resources Rust Guide
-sidebar_position: 5
+sidebar_position: 8
 ---
 
 [Rust](https://www.rust-lang.org/) is a systems level programming language with an emphasis on performance, reliability, productivity, and readability.

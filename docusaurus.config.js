@@ -4,7 +4,7 @@ import { themes as prismThemes } from 'prism-react-renderer'
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'UF OSC Docs',
-  tagline: 'Docs & Tutorials for UF Open Source Club Developers',
+  tagline: 'Documentation & Resources for UF Open Source Club (UFOSC)',
   favicon: 'img/favicon.png',
 
   // Set the production url of your site here
@@ -53,18 +53,18 @@ const config = {
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'website',
-        path: 'docs/website',
-        routeBasePath: 'docs/website',
+        id: 'resources',
+        path: 'docs/resources',
+        routeBasePath: 'docs/resources',
         editUrl: 'https://github.com/ufosc/osc-docs/blob/main'
       }
     ],
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'osc-docs',
-        path: 'docs/osc-docs',
-        routeBasePath: 'docs/osc-docs',
+        id: 'website',
+        path: 'docs/website',
+        routeBasePath: 'docs/website',
         editUrl: 'https://github.com/ufosc/osc-docs/blob/main'
       }
     ],
@@ -90,17 +90,17 @@ const config = {
       },
       items: [{
         to: 'docs/club',
-        label: 'Archive',
+        label: 'Club Archive',
+        position: 'left'
+      },
+      {
+        to: 'docs/resources',
+        label: 'Resources',
         position: 'left'
       },
       {
         to: 'docs/website',
         label: 'Website',
-        position: 'left'
-      },
-      {
-        to: 'docs/osc-docs',
-        label: 'Docs',
         position: 'left'
       },
       {
@@ -129,8 +129,8 @@ const config = {
           to: '/docs/website'
         },
         {
-          label: 'OSC Docs',
-          to: '/docs/osc-docs'
+          label: 'Resources',
+          to: '/docs/resources'
         },
         {
           label: 'OpenWebServices',

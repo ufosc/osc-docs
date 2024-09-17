@@ -1,7 +1,7 @@
 ---
 title: HTML Guide
 description: Club Archive Resources HTML Guide
-sidebar_position: 2
+sidebar_position: 5
 ---
 
 HTML (HyperText Markup Language) is the most basic building block of the web. It describes and defines the content of a webpage. That does **not** include the appearance ([CSS](css.md)) or functionality ([JavaScript](javascript.md)) of a webpage.

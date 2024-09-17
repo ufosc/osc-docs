@@ -1,7 +1,7 @@
 ---
 title: CSS Guide
 description: Club Archive Resources CSS Guide
-sidebar_position: 1
+sidebar_position: 4
 ---
 
 Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in [HTML](html.md). CSS describes how elements should be rendered on screen, on paper, in speech, or on other media.

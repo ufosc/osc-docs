@@ -1,7 +1,7 @@
 ---
 title: Bash Guide
 description: Club Archive Resources Bash Guide
-sidebar_position: 0
+sidebar_position: 3
 ---
 
 Bash is the most common shell for Unix and Unix like (such as Linux) platforms. The name comes from abbreviating "Bourne Again SHell". It allows a user to "talk" to a computer with a command line (as opposed to the normal GUI) and can be very powerful for scripting tasks.

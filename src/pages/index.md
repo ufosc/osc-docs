@@ -12,8 +12,8 @@ Each semester, members meet and collaborate to build open source projects. Their
 ## Documentation Index
 
 * [Club Archive](/docs/club): Archive of club presentations, notes, etc.
-* [OSC Website](/docs/website): User & Developer Documentation for the [OSC website](https://ufosc.org).
-* [OSC Docs](/docs/osc-docs): Developer Documentation for the OSC Docs website.
+* [Resources](/docs/resources): Contributor resources, including Git, JavaScript, Python, Rust tutorials.
+* [OSC Website](/docs/website): Documentation for the [OSC website](https://ufosc.org).
 * [OpenWebServices](/docs/ows): Documentation for OpenWebServices & OAuth2.
 
 ## Contributing
@@ -23,10 +23,10 @@ All projects by the UF Open Source Club are governed by open-source licenses. In
 If you wish to contribute to OSC Docs, navigate to its [GitHub Repository](https://github.com/ufosc/osc-docs). Alternatively, clicking on the "Edit this page" button on your desired documentation page will redirect you to the source code for that particular page, where you'll be able to contribute.
 
 ## Contact
-You can reach the UF OSC team via email at gator.osc(at)gmail.com or via the [contact form](https://ufosc.org/#contact).
+You can reach the UF OSC team via email at osctechlead(at)gmail.com or via the [contact form](https://ufosc.org/#contact).
 
 ## License
 
 This site is licensed under [AGPL-3.0-or-later](https://spdx.org/licenses/AGPL-3.0-or-later). Source code hosted on [GitHub](https://github.com/ufosc/osc-docs).
 
-Copyright © 2023 UF Open Source Club
+Copyright © 2024 UF Open Source Club

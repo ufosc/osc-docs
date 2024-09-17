@@ -1,7 +1,7 @@
 ---
 title: Git & Github Guide
 description: Club Archive Resources Git Guide
-sidebar_position: 7
+sidebar_position: 1
 ---
 ## Prerequisites
 Using any development tool on your system will require an installation of your OSs relevant dev tools. On MacOS or Linux, this is easily achieved by running one of the following on your command line:
