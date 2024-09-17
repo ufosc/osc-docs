@@ -6,7 +6,7 @@ sidebar_position: 4
 
 # Publishing News
 
-News can be published by creating markdown files in the `/src/content/` directory. Markdown is a markup language for writing on the web, it is explained in the [Markdown guide](/docs/osc-docs/markdown).
+News can be published by creating markdown files in the `/src/content/` directory. Markdown is a markup language for writing on the web, it is explained in the [Markdown guide](/docs/website/docs-ufosc/markdown).
 
 :::tip
 To preview your article as it will appear on the website and see updates in real-time as you make changes, ensure that the development server is running by executing the command `npm run develop`.
